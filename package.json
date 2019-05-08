@@ -1,0 +1,36 @@
+{
+  "name": "checkout-experience",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.16.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel client --out-dir public --presets @babel/preset-react --source-maps inline --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewjdiaz1/Checkout-Experience.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewjdiaz1/Checkout-Experience/issues"
+  },
+  "homepage": "https://github.com/matthewjdiaz1/Checkout-Experience#readme"
+}
