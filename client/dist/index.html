@@ -1,0 +1,24 @@
+<!-- 
+  -Link your transpiled component file from index.html. DO NOT USE WEBPACK
+  -Use Express to serve up an index.html file and its associated assets 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checkout Experience</title>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+</head>
+
+<body>
+  <div id="app">
+
+  </div>
+  <script type="module" src="./components/app.js"></script>
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>

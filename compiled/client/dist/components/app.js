@@ -1,0 +1,13 @@
+// For the basic requirements, you MUST place all of your React components into one file, app.jsx
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    return React.createElement("div", null, "React from App");
+  }
+
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9jb21wb25lbnRzL2FwcC5qc3giXSwibmFtZXMiOlsiY29uc3RydWN0b3IiLCJyZW5kZXIiXSwibWFwcGluZ3MiOiI7QUFDQSxNQUFBLEdBQUEsU0FBa0IsTUFBbEIsU0FBQSxDQUFBOztBQUVBLFVBQUEsS0FBQTtBQUNFQSxTQUFBQSxLQUFBQSxHQUFXLEVBQVhBO0FBQ0U7O0FBSUQsV0FBQTs7QUFDREM7O0FBVEYiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBGb3IgdGhlIGJhc2ljIHJlcXVpcmVtZW50cywgeW91IE1VU1QgcGxhY2UgYWxsIG9mIHlvdXIgUmVhY3QgY29tcG9uZW50cyBpbnRvIG9uZSBmaWxlLCBhcHAuanN4XG5pbXBvcnQgUmVhY3QgZnJvbSAnUmVhY3QnO1xuXG5jbGFzcyBBcHAgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xuICBjb25zdHJ1Y3Rvcihwcm9wcykge1xuICAgIHN1cGVyKHByb3BzKTtcbiAgICB0aGlzLnN0YXRlID0ge1xuXG4gICAgfVxuICB9XG4gIHJlbmRlcigpIHtcbiAgICByZXR1cm4gKFxuICAgICAgPGRpdj5SZWFjdCBmcm9tIEFwcDwvZGl2PlxuICAgIClcbiAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCBBcHA7Il19

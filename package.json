@@ -4,24 +4,26 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "babel-core": "^6.26.3",
-    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.0.0-alpha.2",
     "express": "^4.16.4",
+    "jquery": "^2.2.1",
+    "lodash": "^4.6.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.4.4",
-    "@babel/node": "^7.2.2",
-    "@babel/preset-env": "^7.4.4",
-    "@babel/preset-react": "^7.0.0",
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
+    "babel-cli": "^6.6.5",
+    "babel-plugin-react": "1.0.0",
+    "babel-preset-react": "^6.5.0",
+    "chai": "^3.5.0",
+    "mocha": "2.3.3",
+    "sinon": "1.17.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "babel client --out-dir public --presets @babel/preset-react --source-maps inline --watch"
+    "start": "nodemon server/server.js",
+    "babel-node": "babel-node --presets=/*a*/ --ignore=''",
+    "compile": "babel ./client/src --out-dir ./client/dist --presets=react --ignore=node_modules,compiled --source-maps inline -w"
   },
   "repository": {
     "type": "git",
